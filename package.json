@@ -1,38 +1,28 @@
 {
-  "name": "server-notifications-node",
-  "version": "1.0.0",
-  "description": "Send SMS notifications on exceptions thrown by your Node.js application",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TwilioDevEd/server-notifications-node"
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   },
-  "keywords": [
-    "twilio",
-    "express",
-    "voip",
-    "sms"
-  ],
-  "author": "Kevin Whinnery",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TwilioDevEd/server-notifications-node/issues"
-  },
-  "homepage": "https://github.com/TwilioDevEd/server-notifications-node",
-  "engines" : { "node" : "6.x" },
   "dependencies": {
-    "body-parser": "^1.12.0",
-    "connect-flash": "^0.1.1",
-    "csurf": "^1.8.3",
-    "dotenv": "^1.2.0",
-    "express": "^4.12.0",
-    "express-session": "^1.10.3",
-    "morgan": "^1.5.1",
-    "sanitize-html": "^1.10.0",
-    "twilio": "^1.11.1",
-    "underscore": "^1.8.3"
+    "express": "^4.17.1",
+    "twilio": "^4.6.0"
   },
-	"scripts": {
-		"start": "node index.js"
-	} 
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }

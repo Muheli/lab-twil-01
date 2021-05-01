@@ -1,0 +1,26 @@
+<!-- <div class="privbtn"> -->
+  <a href="#">
+    <img src="https://cdn.glitch.com/a44675a0-86a7-457b-b970-1846b6318965%2FIconCandidMode.png?v=1617134669921"
+           alt="Privacy Button"
+           width="40px"
+           >
+  </a>
+  <div class="privbtn_dropcontent content_section">
+    <h1 style="text-align:center">No-Nonsense Privacy Policy</h1>
+    <p>
+      This site will use cookies to store your identity and activity only if you want to be remembered.
+      You'll be invited to register with an email if you choose to use features that require it.
+    </p>
+    <p>
+      The
+      <img src="https://cdn.glitch.com/a44675a0-86a7-457b-b970-1846b6318965%2FIconCandidMode.png?v=1617134669921"
+             alt="Candid Icon"
+             width="30px"
+             >
+      icon indicates that you have already consented to sharing your identity.
+    </p>
+    <p>
+      <a href="/privacy">Click here</a> for more information and options for changing privacy settings.
+    </p>
+  </div>
+<!-- </div> privbtn -->

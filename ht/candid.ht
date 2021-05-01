@@ -1,0 +1,31 @@
+<!-- <div class="privbtn"> -->
+  <a href="#">
+    <img src="https://cdn.glitch.com/a44675a0-86a7-457b-b970-1846b6318965%2FIconIncognitoMode.png?v=1617134669834"
+           alt="Privacy Button"
+           width="40px"
+           >
+  </a>
+  <div class="privbtn_dropcontent content_section">
+    <h1 style="text-align:center">No-Nonsense Privacy Policy</h1>
+    <p>
+      This site won't track you with cookies unless you want to be remembered.
+      You'll be invited to register with an email if you choose to use features
+      that make being remembered worthwhile.
+    </p>
+    <p>
+      <img src="https://cdn.glitch.com/a44675a0-86a7-457b-b970-1846b6318965%2FIconIncognitoMode.png?v=1617134669834"
+             alt="Incognito Icon"
+             width="30px"
+             >
+      says that you are browsing without cookies and don't want to be identified.
+    </p>
+    <p>
+      <img src="https://cdn.glitch.com/a44675a0-86a7-457b-b970-1846b6318965%2FIconCandidMode.png?v=1617134669921"
+             alt="Candid Icon"
+             width="30px"
+             >
+      says you have nothing to hide and want access to features that require
+      your activity and identity to be remembered.
+    </p>
+  </div>
+<!-- </div> privbtn -->

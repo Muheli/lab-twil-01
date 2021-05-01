@@ -1,0 +1,106 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A skeleton app" />
+
+    <!-- Lab icon (curtain) -->
+    <link id="favicon"
+          rel="icon"
+          href="https://cdn.glitch.com/31eaa458-cd9c-4d2d-9453-72e2c17dd89d%2Fbeaker.png?v=1619619321214"
+          type="image/x-icon"> <!-- * -->
+    
+    <!-- Live icon (wheel) -- >
+    <link id="favicon"
+          rel="icon"
+          href="https://cdn.glitch.com/47d6365d-ba2a-41fc-8b34-f34cc5092916%2Fwheel.png?v=1618355008013"
+          type="image/x-icon"> <!-- * -->
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/c_navmenu.css" />
+
+    <!-- import the markdown rendering module -->
+    <!-- <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script> -->
+    <!-- import the webpage's client-side javascript file -->
+    <script type="module" src="/page_lab.js" defer></script>
+    
+    <!-- * -->
+  </head>
+
+  <body class="p0_pg_gp">
+    <!-- * --
+    <script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
+    <!-- * -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://src.litix.io/core/4/mux.js"></script>
+    <!-- * -->
+    
+    <div id="the_mininav_container" class="full_width p1_hdr_flexitem">
+      <h1 id="the_mininav_title">The Lab</h1>
+      <div id="the_nav_menu" class="navmenu">
+        <a href="#">Home</a>
+        <a href="#" class="navmenu_moored">Lab</a>
+        <a href="#">Contact</a>
+        <!-- <a href="#about">About me</a> -->
+      </div>
+
+      <div class="privbtn" id="TheCcoBtn">
+        <!-- "/o?h=cco_incognito" -->
+      </div>
+      <!-- privbtn -->
+    </div>
+    <!-- the_mininav_container -->
+
+    <div class="main_content p1_torso_flexitem">
+      <form
+        class="content_section row_wrapping_flex_gp"
+        id="TheClientTrustForm"
+      >
+        <button type="button">Run Trust Check</button>
+        <p style="margin-left:20px; margin-right:20px;">
+          <em>A fresh trust check is needed.</em>
+        </p>
+        <p>
+          A trust check is required before your device can be granted access to sensitive lab features.
+          Untrusted devices could compromize server side data or consume costly server resources if given access.
+        </p>
+      </form>
+
+      <div class="content_spacer"></div>
+      <form class="content_section row_wrapping_flex_gp" id="TheMuxVideoForm">
+        <div class="column_wrapping_flex_gp">
+          <button type="button" name="RunMuxTest">Re-Check Stats</button>
+          <button type="button" name="ResetMuxTest" style="margin-top:10px;">Reset Stats Display</button>
+        </div>
+        <p style="margin-left:20px; margin-right:20px;">
+          <em>A test video stream ready for use.</em>
+        </p>
+        <pre name="MuxStatusOutput">
+          "tracks":...
+        </pre>
+      </form>
+
+      <div class="content_spacer"></div>
+      <form class="content_section row_wrapping_flex_gp" id="TheVideoViewsForm">
+        <div class="column_wrapping_flex_gp">
+          <button type="button" name="GetLatestVideoView">Report Last View</button>
+        </div>
+        <p style="margin-left:20px; margin-right:20px;">
+          <em>Video views output.</em>
+        </p>
+      </form>
+
+      <!--
+      <div class="content_spacer"> </div>
+      <div class="content_section">
+        <p>stuff</p>
+      </div>
+      -->
+    </div>
+    <!-- main_content -->
+  </body>
+</html>

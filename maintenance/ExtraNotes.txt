@@ -1,0 +1,120 @@
+Handle_TheVideoViewsForm_Click attempting GetLatestVideoView.
+using_mux.js:203 Handle GetLatestVideoView, status {
+	"bTrust": true,
+	"version": 4,
+	"strVvResponse": {
+		"total_row_count": 1,
+		"timeframe": [
+			1618856152,
+			1618942552
+		],
+		"data": [
+			{
+				"viewer_os_family": "macOS",
+				"viewer_application_name": "Chrome",
+				"view_start": "2021-04-19T19:20:26Z",
+				"view_end": "2021-04-19T19:20:41Z",
+				"video_title": "",
+				"total_row_count": 1,
+				"player_error_message": null,
+				"player_error_code": null,
+				"id": "wr3qeK2cqmz9aBfmATBklfJNZTZmPMAmK3",
+				"error_type_id": null,
+				"country_code": "US"
+			}
+		]
+	}
+}
+
+GetLatestVvId
+
+{"bTrust":true,
+	"ViewsList":{"total_row_count":1,"timeframe":[1618854382,1619459182],
+		"data":[
+			{"viewer_os_family":"macOS","viewer_application_name":"Chrome","view_start":"2021-04-19T19:20:26Z","view_end":"2021-04-19T19:20:41Z","video_title":"","total_row_count":1,"player_error_message":null,"player_error_code":null,"id":"wr3qeK2cqmz9aBfmATBklfJNZTZmPMAmK3","error_type_id":null,"country_code":"US"}
+		]},
+	"LatestViewId":"wr3qeK2cqmz9aBfmATBklfJNZTZmPMAmK3",
+	"LatestViewDetail":{}}
+
+
+{"bTrust":true,
+	"ViewsList":{"total_row_count":1,"timeframe":[1618857518,1619462318],
+		"data":[
+			{	"viewer_os_family":"macOS","viewer_application_name":"Chrome","view_start":"2021-04-19T19:20:26Z","view_end":"2021-04-19T19:20:41Z",
+				"video_title":"","total_row_count":1,"player_error_message":null,"player_error_code":null,"id":"wr3qeK2cqmz9aBfmATBklfJNZTZmPMAmK3",
+				"error_type_id":null,"country_code":"US"
+			}
+		]
+	},
+	"LatestViewId":wr3qeK2cqmz9aBfmATBklfJNZTZmPMAmK3,
+	"LatestViewDetail":{
+		"total_row_count":null,"timeframe":[1619375919,1619462319],
+		"data":{
+			"isp":null,"preroll_requested":false,"latitude":"37.5","video_startup_preroll_request_time":null,
+			"video_content_type":null,"video_encoding_variant":null,"id":"fd6bb8e2-0bff-44b9-8885-28c276628fc9",
+			"page_load_time":1075,"player_error_message":null,"player_source_domain":"mux.com","page_type":null,
+			"view_session_id":null,"error_type_id":null,"metro":null,"player_error_code":null,"view_seek_duration":null,
+			"mux_viewer_id":"db9707ad-6291-4b49-a72d-a3cb65bfc0ef","viewer_application_engine":null,"video_stream_type":"on-demand","video_duration":null,
+			"requests_for_first_preroll":null,"viewer_connection_type":null,"buffering_count":2,"view_average_request_latency":333,
+			"viewer_experience_score":"0.7890608","view_playing_time":"10109",
+			"player_source_url":"https://stream.mux.com/T6DrnsZ47zkdRQUK6sUuMddqyKWizICpdAE9jXGOyEg.m3u8",
+			"video_variant_name":null,"preroll_played":false,"experiment_name":null,
+			"view_end":"2021-04-19T19:20:41Z","quality_score":"1","video_title":null,
+			"inserted_at":"2021-04-19T19:20:26Z","watch_time":11740,
+			"viewer_device_manufacturer":"Apple","player_height":200,"view_id":"ba06e88c-01d4-42b3-adb6-02c39ce5bda1",
+			"view_error_id":null,"platform_description":null,"player_startup_time":431,"viewer_user_id":null,"player_view_count":1,
+			"view_average_request_throughput":15336000,"buffering_duration":1506,"preroll_ad_tag_hostname":null,"player_source_type":"application/x-mpegurl",
+			"view_max_upscale_percentage":"0","player_name":"Main Player","video_series":null,
+			"player_software":"HTML5 Video Element","player_source_height":720,"view_seek_count":null,
+			"view_max_playhead_position":"10109","session_id":"a4d6f8b7-c104-4730-b825-6d580260c859",
+			"view_total_downscaling":"70.09766","view_max_request_latency":333,"player_preload":true,
+			"watched":true,"player_mux_plugin_version":"4.0.1","region":"California",
+			"platform_summary":"Chrome on macOS","player_source_host_name":"stream.mux.com",
+			"exit_before_video_start":false,"viewer_os_version":"11.2.3","video_language":null,
+			"viewer_user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
+			"preroll_ad_asset_hostname":null,"asn_name":"COMCAST-7922 (AS7922)",
+			"playback_score":"1","view_max_downscale_percentage":"0.72265625","video_startup_preroll_load_time":null,
+			"player_remote_played":false,"player_source_width":1280,"short_time":" 7:20pm Etc/UTC 2021-04-19","viewer_device_model":null,
+			"player_autoplay":false,"viewer_application_name":"Chrome","buffering_rate":"1.7035776e-4",
+			"page_url":"https://muh-staging.glitch.me/lab_mux","mux_api_version":"2.1",
+			"player_instance_id":"f1675d1f-6bea-4e18-bb2e-783f941df5a2","viewer_os_family":"macOS",
+			"events":[
+				{"viewer_time":1618860020488,"playback_time":0,"name":"playerready","event_time":1618860026143},
+				{"viewer_time":1618860020505,"playback_time":0,"name":"loadstart","event_time":1618860026143},
+				{"viewer_time":1618860026084,"playback_time":0,"name":"viewstart","event_time":1618860031341},
+				{"viewer_time":1618860026084,"playback_time":0,"name":"play","event_time":1618860031341},
+				{"viewer_time":1618860026187,"playback_time":2,"name":"playing","event_time":1618860031341},
+				{"viewer_time":1618860026203,"playback_time":19,"name":"rebufferstart","event_time":1618860031341},
+				{"viewer_time":1618860026608,"playback_time":19,"name":"rebufferend","event_time":1618860031341},
+				{"viewer_time":1618860027638,"playback_time":21,"name":"rebufferstart","event_time":1618860031341},
+				{"viewer_time":1618860027735,"playback_time":23,"name":"rebufferend","event_time":1618860031341},
+				{"viewer_time":1618860037822,"playback_time":10109,"name":"pause","event_time":1618860041382},
+				{"viewer_time":1618860037822,"playback_time":10109,"name":"viewdropped","event_time":1618860041382}
+			],
+			"viewer_os_architecture":null,
+			"property_id":48260,
+			"city":"San Mateo",
+			"used_fullscreen":false,
+			"cdn":"cloudflare",
+			"weighted_average_bitrate":null,
+			"asn":7922,"video_producer":null,
+			"country_code":"US","time_to_first_frame":104,
+			"player_width":355,"player_version":null,
+			"viewer_application_version":"89.0.4389.114",
+			"player_load_time":null,
+			"video_id":"bXVoLXN0YWdpbmcuZ2xpdGNoLm1lL3VuZGVmaW5lZA",
+			"longitude":"-122.3",
+			"player_source_duration":15295,
+			"rebuffer_percentage":"0.12827939",
+			"continent_code":"NA","player_mux_plugin_name":"VideoElementMonitor",
+			"country_name":"United States","rebuffering_score":"0.4921842","player_language":null,
+			"sub_property_id":null,"startup_score":"0.9871668","viewer_device_category":"desktop",
+			"view_total_upscaling":"0","view_start":"2021-04-19T19:20:26Z",
+			"player_software_version":"No Versions","viewer_device_name":null,"updated_at":"2021-04-19T19:20:41Z",
+			"view_total_content_playback_time":97,
+			"player_poster":null,"video_variant_id":null,
+			"player_source_stream_type":null,
+			"mux_embed_version":"4.0.1"
+		}
+	}
+}
